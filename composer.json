@@ -1,0 +1,24 @@
+{
+    "name": "leeprince/laravel-admin-member",
+    "description": "基于laravel-admin的小程序会员系统",
+    "type": "library",
+    "authors": [
+        {
+            "name": "leeprince",
+            "email": "leeprince@foxmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "LeePrince\\MinprogramMember\\": "./src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LeePrince\\MinprogramMember\\MemberServiceProvider"
+            ]
+        }
+    }
+}
