@@ -2,6 +2,7 @@
     "name": "leeprince/laravel-admin-member",
     "description": "基于laravel-admin的小程序会员系统",
     "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "leeprince",
