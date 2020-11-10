@@ -42,7 +42,7 @@ class MinprogramMemberTables extends Migration
             $table->string('openid', 32)->comment('第三方标识');
             $table->string('union_id', 32)->comment('第三方统一标识')->default('');
             $table->string('nick_name', 32)->comment('昵称');
-            $table->string('avatar', 64)->comment('头像');
+            $table->string('avatar', 128)->comment('头像');
             // 代替 $table->timestamps();自动维护的 created_at 和 updated_at 的字段类型
             $table->integer('created_at');
             $table->integer('updated_at')->default(0);
