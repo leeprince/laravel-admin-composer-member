@@ -66,6 +66,16 @@ class MemberInfo extends Model
      *
      * @param $value
      */
+    public function getAvatarAttribute($value)
+    {
+        return "<img src='{$value}' style='height:20px;width:20px'>";
+    }
+
+    /**
+     * [访问器 - 来源]
+     *
+     * @param $value
+     */
     public function getSourceIdAttribute($value)
     {
         return self::SOURCE_ID[$value];
