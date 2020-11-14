@@ -57,10 +57,10 @@ class Member extends Model
      */
     public function __construct(array $attributes = [])
     {
-        $connection = config('admin.database.connection') ?: config('database.default');
+        $connection = config('prince.member.database.connection.customer') ?: config('database.default');
     
         $this->setConnection($connection);
-    
+
         $this->setTable(config('ptable.member'));
         
         parent::__construct($attributes);

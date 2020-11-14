@@ -11,7 +11,7 @@ class MinprogramMemberTables extends Migration
      */
     public function getConnection()
     {
-        return config('admin.database.connection') ?: config('database.default');
+        return config('prince.member.connection.customer') ?: config('database.default');
     }
     
     /**
@@ -21,7 +21,8 @@ class MinprogramMemberTables extends Migration
      */
     public function up()
     {
-        Schema::create(config('ptable.member'), function (Blueprint $table) {
+        $tablePrefix = config('prince.member.database.member.prefix');
+        Schema::create($tablePrefix.config('ptable.member'), function (Blueprint $table) {
             $table->id();
             $table->string('mobile', 11)->comment('全平台统一手机号');
             $table->tinyInteger('status')->comment('0：禁用；1：正常');
@@ -33,7 +34,7 @@ class MinprogramMemberTables extends Migration
             $table->integer('updated_at');
         });
         
-        Schema::create(config('ptable.member_info'), function (Blueprint $table) {
+        Schema::create($tablePrefix.config('ptable.member_info'), function (Blueprint $table) {
             $table->id();
             $table->bigInteger('member_id')->comment('全平台统一用户ID，关联：'.config('ptable.member').' 表');
             $table->string('mobile', 11)->comment('全平台统一手机号');

@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cf5ab385-db1c-4737-a004-6b5d7c4ad5fe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Database/migrations/2020_10_24_153336_minprogram_member_tables.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/migrations/2020_10_24_153336_minprogram_member_tables.php" afterDir="false" />
-    </list>
+    <list default="true" id="cf5ab385-db1c-4737-a004-6b5d7c4ad5fe" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,18 +214,17 @@
       <workItem from="1603894089706" duration="660000" />
       <workItem from="1603895088503" duration="25000" />
       <workItem from="1604327971046" duration="1108000" />
-      <workItem from="1605025316382" duration="34000" />
+      <workItem from="1605025316382" duration="137000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9982000" />
+    <option name="totallyTimeSpent" value="10085000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="91" y="198" width="1477" height="748" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28780487" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28780487" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -240,7 +237,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.4390244" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.4390244" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />

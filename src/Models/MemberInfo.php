@@ -52,17 +52,17 @@ class MemberInfo extends Model
     
     public function __construct(array $attributes = [])
     {
-        $connection = config('admin.database.connection') ?: config('database.default');
+        $connection = config('prince.member.database.connection.customer') ?: config('database.default');
         
         $this->setConnection($connection);
-        
+
         $this->setTable(config('ptable.member_info'));
         
         parent::__construct($attributes);
     }
     
     /**
-     * [访问器 - 来源]
+     * [访问器 - 头像]
      *
      * @param $value
      */

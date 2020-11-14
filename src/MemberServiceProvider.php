@@ -93,6 +93,21 @@ class MemberServiceProvider extends ServiceProvider
      */
     private function loadDotConfig()
     {
+        /** 配置数据库连接 */
+        // 将默认连接的配置复制到自定义连接名中, 再重新设置配置
+        config(
+            Arr::dot(
+                config('database.connections.'.config('prince.member.database.connection.default'), []),
+                'database.connections.'.config('prince.member.database.connection.customer').'.')
+        );
+        // 自定义连接的配置覆盖默认连接复制过来的配置, 再重新设置配置
+        config(
+            Arr::dot(
+                config('prince.member.database.'.config('prince.member.database.connection.customer'), []),
+                'database.connections.'.config('prince.member.database.connection.customer').'.')
+        );
+
+        /** 通过Arr::dot()配置简写, 再重新设置配置 */
         config(Arr::dot(config('prince.member.table', []), 'ptable.'));
         config(Arr::dot(config('prince.member.route', []), 'proute.'));
         config(Arr::dot(config('prince.member.root', []), 'proot.'));
