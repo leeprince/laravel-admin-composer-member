@@ -5,10 +5,10 @@
 2. 安装 encore/laravel-admin
 
 ## 安装
-1. 安装 leeprince/laravel-composer-laravelAdminMember
+1. 安装 leeprince/laravel-admin-composer-member
 
     ```angular2
-    composer require leeprince/laravel-composer-laravelAdminMember
+    composer require leeprince/laravel-admin-composer-member
     ```
 
 2. 发布配置
