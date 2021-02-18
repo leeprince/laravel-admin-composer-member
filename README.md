@@ -1,14 +1,14 @@
-# 基于laravel-admin的小程序会员系统
+# 基于laravel-admin的小程序会员系统的组件
 
 ## 准备
 1. 安装 laravel/laravel 
 2. 安装 encore/laravel-admin
 
 ## 安装
-1. 安装 leeprince/laravel-admin-member
+1. 安装 leeprince/laravel-composer-laraveAdminMember
 
     ```angular2
-    composer require leeprince/laravel-admin-member
+    composer require leeprince/laravel-composer-laraveAdminMember
     ```
 
 2. 发布配置

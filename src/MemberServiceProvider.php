@@ -87,7 +87,7 @@ class MemberServiceProvider extends ServiceProvider
     }
     
     /**
-     * [加载用户模型守卫者配置信息到 laravel 项目中以供使用]
+     * [用点「.」展平多维关联数组，再重新设置配置]
      *
      * @Author  leeprince:2020-07-14 13:29
      */
