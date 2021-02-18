@@ -1,5 +1,5 @@
 {
-    "name": "leeprince/laravel-admin-member",
+    "name": "leeprince/laravel-composer-laravelAdminMember",
     "description": "基于laravel-admin的小程序会员系统的组件",
     "type": "library",
     "license": "MIT",
